@@ -33,7 +33,7 @@ import java.util.List;
  * Interface Occurencies (more in detail to the task description)
  */
 public interface Occurencies {
-    public void getOccurancies(String[] sources, String[] words, String res) throws Exception;
+    void getOccurancies(String[] sources, String[] words, String res) throws Exception;
 }
 
 /**
